@@ -1,6 +1,7 @@
 import smtplib
 import ssl
 from email.message import EmailMessage
+import sys
 from typing import List, Optional
 import mimetypes
 import os
@@ -75,4 +76,4 @@ if __name__ == "__main__":
     email_sender.send_email(
         subject="Test Email",
         body="This is a test email.",
-        to_emails="add your email here",)
+        to_emails="igbokweuche_emmanuel@outlook.com",)
